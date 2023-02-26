@@ -10,26 +10,21 @@
     <a href="https://github.com/GeopJr/vitepressify/actions"><img src="https://img.shields.io/github/workflow/status/GeopJr/vitepressify/Specs%20&%20Lint/main?labelColor=389d70&style=for-the-badge" alt="ci action status" /></a>
 </p>
 
-
-#
-
 ## What is vitepressify?
 
 Crystal docs are awesome, but sometimes you need more control over them.
 
-vitepressify generates a VitePress project with paegs from your local or remote Crystal docs.
+vitepressify generates a VitePress project with pages from your local or remote Crystal docs.
 
 - It automatically generates markdown pages and sidebars.
 - It provides a table of contents.
 - It can update an already made project with more versions or other shards.
-- It automatically handles loading sidebars and cases where navabar has 1 vs more items, without the need to overwrite any configs.
+- It automatically handles loading sidebars and cases where navbar has 1 vs more items, without the need to overwrite any configs.
 - It comes with a purple accent.
 
 <p align="center">
     <img width="1024" src="https://i.imgur.com/XsauHgY.png" alt="Screenshot of VitePress docs of Crystal-lang api docs. Screenshot is split diagonally showcasing both dark and light themes." />
 </p>
-
-#
 
 ## Installation
 
@@ -48,8 +43,6 @@ They are built & published by our lovely [actions](https://github.com/GeopJr/vit
 #### Manually
 
 `$ shards build --production --no-debug --release`
-
-#
 
 ## Usage
 
@@ -70,19 +63,20 @@ Arguments:
     -h, --help                       Show this help
 ```
 
-#
-
 ## Example
 
 If you wanted for example to build a VitePress project using the Crystal API docs from 1.4.0 to 1.5.1, all you have to do is:
 
 - Generate the initial project, using the link to the 1.5.1 docs with the tag of `1.5.1`.
+
 ```bash
 $ vitepressify -i https://crystal-lang.org/api/1.5.1/ -t 1.5.1
 ```
+
 This will generate the project in a random named folder, for example `vitepress-ujqywe`.
 
 - Now we just tell `vitepressify` to update that folder with the other versions:
+
 ```bash
 $ vitepressify -i https://crystal-lang.org/api/1.5.0/ -t 1.5.0 -u ./vitepress-ujqywe/
 
@@ -102,10 +96,7 @@ $ vitepressify -i https://crystal-lang.org/api/1.4.0/ -t 1.4.0 -u ./vitepress-uj
 5. Push to the branch (`git push origin my-new-feature`)
 6. Create a new Pull Request
 
-#
-
 ## Sponsors
-
 
 <p align="center">
 
