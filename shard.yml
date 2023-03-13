@@ -8,6 +8,6 @@ targets:
   vitepressify:
     main: src/vitepressify.cr
 
-crystal: 1.5.0
+crystal: 1.7.3
 
 license: BSD-2-Clause

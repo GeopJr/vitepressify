@@ -38,7 +38,7 @@ They are built & published by our lovely [actions](https://github.com/GeopJr/vit
 
 #### Dependencies
 
-- `crystal` - `1.5.0`
+- `crystal` - `1.7.3`
 
 #### Manually
 
