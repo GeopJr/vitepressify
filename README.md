@@ -7,7 +7,7 @@
   <br />
     <a href="https://github.com/GeopJr/vitepressify/blob/main/CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-v2.1-000000.svg?style=for-the-badge&labelColor=389d70" alt="Code Of Conduct" /></a>
     <a href="https://github.com/GeopJr/vitepressify/blob/main/LICENSE"><img src="https://img.shields.io/badge/LICENSE-BSD--2--Clause-000000.svg?style=for-the-badge&labelColor=389d70" alt="BSD-2-Clause" /></a>
-    <a href="https://github.com/GeopJr/vitepressify/actions"><img src="https://img.shields.io/github/workflow/status/GeopJr/vitepressify/Specs%20&%20Lint/main?labelColor=389d70&style=for-the-badge" alt="ci action status" /></a>
+    <a href="https://github.com/GeopJr/vitepressify/actions"><img src="https://img.shields.io/github/actions/workflow/status/GeopJr/vitepressify/ci.yml?labelColor=389d70&style=for-the-badge&branch=main" alt="ci action status" /></a>
 </p>
 
 ## What is vitepressify?
