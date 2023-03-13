@@ -44,6 +44,25 @@ They are built & published by our lovely [actions](https://github.com/GeopJr/vit
 
 `$ shards build --production --no-debug --release`
 
+### Shard dependency
+
+In your `shard.yml` file:
+
+```yml
+development_dependencies:
+  vitepressify:
+    github: GeopJr/vitepressify
+```
+
+Then install it with `shards install` and build it:
+
+```bash
+cd lib/vitepressify
+shards build --production --no-debug --release
+popd
+./lib/vitepressify/bin/vitepressify -h
+```
+
 ## Usage
 
 ```
