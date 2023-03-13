@@ -171,8 +171,7 @@ module Vitepressify
           "description": "Docs for #{@name} using VitePress",
           "main": "index.js",
           "devDependencies": {
-            "vitepress": "1.0.0-alpha.13",
-            "vue": "^3.2.38"
+            "vitepress": "1.0.0-alpha.52"
           },
           "scripts": {
             "docs:dev": "vitepress dev docs",
