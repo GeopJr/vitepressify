@@ -89,6 +89,8 @@ module Vitepressify
         children << (location ? "[#{name}](#{location})" : "`#{name}`")
       end
 
+      return if children.size == 0
+
       <<-MD
       
         # #{title}
